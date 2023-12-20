@@ -1,0 +1,104 @@
+.app-color-primary {
+    color: #0c356a;
+}
+
+.app-color-secondary {
+    color: #279EFF;
+}
+
+.app-color-third {
+    color: #40F8FF;
+}
+
+.app-color-base {
+    color: #D7E9F2;
+}
+
+.app-overlay-color {
+    color: #a4dffcb7;
+}
+
+.app-base-80 {
+    color: #ABCDD8;
+}
+
+/* background color */
+
+.app-bg-primary {
+    background-color: #0c356a;
+}
+
+.app-bg-secondary {
+    background-color: #279EFF;
+}
+
+.app-bg-third {
+    background-color: #40F8FF;
+}
+
+.app-bg-base {
+    background-color: #D7E9F2;
+}
+
+.app-overlay-bg {
+    background-color: #ffffffb7;
+    /* background-color: #a4dffcb7; */
+}
+
+.app-overlay-dark-bg {
+    background-color: #000000b7;
+}
+
+.app-base-80-bg {
+    background-color: #ABCDD8;
+}
+
+/* edit scroll bar */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 1px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #279EFF;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0c356a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #072244;
+}
+
+/* edit scroll bar */
+
+/* edit vertical scroll bar */
+
+.like-button {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.like-icon {
+    fill: none;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.like-button:hover .like-icon {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.text-pink {
+    color: rgb(255, 120, 183);
+}

@@ -1,0 +1,18 @@
+admin
+- Melakukan approve dan publikasi terhadap berita yang di tulis oleh reporter.
+- Mengelola kabupaten dan kecamatan yang ada dalam web.
+- Menambahkan akun reporter.
+- Dapat melihat arsip berita
+
+redaksi
+- Melakukan penulisan berita dan pelaporan tulisan kepada admin.
+- mengupload hari raya
+
+reporter
+- memberikan laporan kepada redaksi tentang isi berita. [Done]
+
+jurnalis
+- Melakukan upload jurnal
+
+user
+- melihat berita
